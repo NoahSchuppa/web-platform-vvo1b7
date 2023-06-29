@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav class="nav2">
+      <a href="index.html">Home</a>
+      <a href="kontakt.html" aria-current="page">Kontakt</a>
+    </nav>
+    <header>
+      <h1>Kontakt</h1>
+    </header>
+    <main>
+      <div class="containerform">
+      <form action="action_page.php">
+        <label for="nname">Vorname</label><br>
+        <input type="text" id="nname" name="nname" value=""><br>
+        <label for="Vname">Name</label><br>
+        <input type="text" id="Vname" name="Vname" value=""> <br>
+        <label for="Personen">Mitreisende Personen</label><br>
+        <select class="form-select" aria-label="Default select example">
+          <option selected></option>
+          <option value="1">3</option>
+          <option value="2">2</option>
+          <option value="3">1</option>
+          <option value="4">4</option>
+        
+        </select>      
+      </form>
+      <form action="action_page.php">
+      <label for="straße">Straße & Hausnummer</label> <br>
+      <input type="text" id="straße" name="straße" value=""> <br>
+      <label for="ort">Ort</label><br>
+      <input type="text" id="ort" name="ort" value=""><br>
+      <br>
+      <input type="submit" value="Bestätigen">  
+    </form>
+      </div>
+      <div>
+      <h2> Anreisemöglichkeiten </h2>
+      
+      <iframe clas="map" src="https://www.google.com/maps/place/Universal+Hotel+Marqu%C3%A9s/@39.3254606,2.9873871,15z/data=!4m9!3m8!1s0x1297a907dfb68b4b:0x9ef93327ec5b71aa!5m2!4m1!1i2!8m2!3d39.3254606!4d2.9873871!16s%2Fg%2F1tk1w5t8?hl=de&entry=ttu" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Karte der Gegebenheit"></iframe>
+      <br>
+      </div>
+    </main>
+    <footer><address> 
+        Kontakt: <br>
+        +34971655100 <br>
+        Plaça Molí de sa Sal, s/n, Illes Balears <br>
+        07638 Colònia de Sant Jordi <br>
+        Spanien 
+      </address>
+  <a href="">Nach Oben</a>
+</footer>
+  </body>
+</html>
